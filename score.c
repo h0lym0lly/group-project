@@ -36,6 +36,6 @@ void goal_scored(int player) {
     display_score();
     int winner = check_winner();
     if (winner) {
-        // Место для команд по завершению игры (когда победитель определён), если они нужны
+        exit(0); // Завершение игры
     }
 }
